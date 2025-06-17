@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Poppins Font path -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Itim Font path-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Kalam Font path -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS PATH -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Bootstrsp path -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <!-- Font Awesome path -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- CSS general path -->
+    <link rel="stylesheet" href="CSS/general.css" />
+    <!-- CSS main path -->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <!-- CSS media path -->
+    <link rel="stylesheet" href="CSS/media.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+    <!-- CSS icon path -->
+    <link rel="icon" href="img/IMG-20230129-WA0009.jp" />
+    <title>Mahmoud Ahmed</title>
+  </head>
+
+  <body class="position-relative" id="over-event">
+    <!-- START OF REGION LODING PAGE -->
+    <div class="loading animate-div d-none">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    <!-- END OF REGION LODING PAGE -->
+
+    <!-- START OF REGION SECTION NAV -->
+    <nav
+      class="active rounded-4 position-fixed mt-2 d-flex justify-content-center align-items-center"
+      id="nav-bar"
+    >
+      <ul>
+        <li>
+          <a id="contact-link" href="#contact"
+            ><i class="fa-solid fa-phone fa-2x"></i>
+            <span id="des-tool" class="position-absolute px-2 rounded-2"
+              >Contact</span
+            >
+          </a>
+        </li>
+
+        <li>
+          <a id="port-link" href="#portfolio"
+            ><i class="fa-solid fa-envelope fa-2x"></i>
+            <span id="des-tool" class="position-absolute px-2 rounded-2"
+              >Portfolio</span
+            ></a
+          >
+        </li>
+
+        <li>
+          <a id="about-link" href="#about"
+            ><i class="fa-solid fa-user fa-2x"></i>
+            <span id="des-tool" class="position-absolute px-2 rounded-2"
+              >About</span
+            >
+          </a>
+        </li>
+
+        <li>
+          <a id="home-link" href="#home">
+            <i class="fa-solid fa-house-chimney fa-2x"></i>
+            <span id="des-tool" class="position-absolute px-2 rounded-2"
+              >Home</span
+            >
+          </a>
+        </li>
+      </ul>
+
+      <button class="btn" id="nav-btns">
+        <i id="close" class="fa-solid fa-xmark me-3 fa-2x"></i>
+        <i id="open" class="fa-solid fa-bars fa-2x d-none"></i>
+      </button>
+    </nav>
+    <!-- END OF REGION SECTION NAV -->
+
+    <!-- START OF REGION SECTION HEADER -->
+    <header class="home pt-5 mb-5 position-relative" id="home">
+      <!-- <div id="particles-js" class="position-fixed top-0 end-0 bottom-0">
+        <canvas
+          class="particles-js-canvas-el"
+          width="318"
+          height="645"
+          style="width: 100%; height: 100%"
+        ></canvas>
+      </div> -->
+      <div class="styleBg"></div>
+
+      <div class="container py-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-7">
+            <div
+              class="home-info me-5 overflow-x-hidden pb-3"
+              data-aos="fade-right"
+              data-aos-duration="2500"
+            >
+              <h2>H<span>i</span>, There</h2>
+              <h1>I'm <span id="auto-play"></span></h1>
+              <p>
+                I'm a web develober & front-end developer focused on crafting
+                clean & user friendly expriences, I'm passionate about building
+                excellent software that improves the lives of those around me.
+              </p>
+              <div class="cv-btn">
+                <!-- https://drive.google.com/file/d/1W7KHnpcgErKkQTICL8zUiSVPr4tPUVoA/view?usp=sharing -->
+                <a href="#" download class="btn my-3 px-4">Download Cv</a>
+              </div>
+
+              <div class="social-links mt-2">
+                <!-- https://www.linkedin.com/in/mahmoud-ahmed-677768351/ -->
+                <a href="https://www.linkedin.com/in/mahmoud-ahmed-677768351/>" class="btn" target="_blank">
+                  <i class="fa-brands fa-2x fa-linkedin"></i>
+                </a>
+                <!-- https://github.com/mahmoud906ahmed -->
+                <a href="https://github.com/mahmoud906ahmed"
+                 class="btn" target="_blank">
+                  <i class="fa-brands fa-2x fa-github-square"></i>
+                </a>
+
+                <a
+                  href="https://www.facebook.com/mahmoud.al.malabi"
+                  class="btn"
+                  target="_blank"
+                  ><i class="fa-brands fa-2x fa-facebook"></i
+                ></a>
+
+                <a
+                 href="mailto:mahmoudabomalab2006@gmail.com"
+                class="btn"
+                 target="_blank"
+                >
+                 <i class="fa-solid fa-2x fa-envelope-open"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="home-img" data-aos-duration="3000" data-aos="fade-left">
+              <img
+                src="images/Mahmoud Ahmed.jpg"
+                alt="home image"
+                class="rounded-4 w-100 ms-4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF REGION SECTION HEADER -->
+
+      <!-- START OF REGION SWITCHER COLOR -->
+      <aside id="side-bar" class="d-flex align-items-sm-start position-fixed">
+        <div class="setting">
+          <i class="fa-solid fa-gear fa-spin fa-2x" role="button"></i>
+        </div>
+        <div id="side-contents">
+          <div
+            class="side-content p-2 d-flex flex-column align-items-center gap-2"
+          >
+            <h3 class="px-2 pb-1 fs-4 border-bottom">Style switcher</h3>
+            <div class="box-color">
+              <span class="item-color rounded-circle" role="button"></span>
+              <span class="item-color rounded-circle" role="button"></span>
+              <span class="item-color rounded-circle" role="button"></span>
+              <span class="item-color rounded-circle" role="button"></span>
+            </div>
+
+            <div class="box-color">
+              <span class="item-color rounded-circle" role="button"></span>
+              <span class="item-color rounded-circle" role="button"></span>
+              <span class="item-color rounded-circle" role="button"></span>
+              <span class="item-color rounded-circle" role="button"></span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- END OF REGION SWITCHER COLOR -->
+
+      <!-- START OF REGION SWITCHER MOOD -->
+      <div
+        class="mode-command position-fixed d-flex justify-content-center align-items-center z-3"
+      >
+        <div>
+          <i id="light" class="fa-regular fa-sun fa-2x" role="button"></i>
+          <i id="dark" class="fa-solid fa-moon fa-2x d-none" role="button"></i>
+        </div>
+      </div>
+      <!-- END OF REGION SWITCHER MOOD -->
+
+      <!-- START OF REGION AROW DOWN -->
+      <a
+        href="#about"
+        class="go-down position-absolute translate-middle rounded-4"
+      >
+        <i class="fa-solid fa-angles-down fa-3x"></i>
+        <!--      data-aos="fade-down"
+        data-aos-duration="3000" -->
+      </a>
+      <!-- END OF REGION AROW DOWN -->
+
+      <!-- START OF REGION UPAROW -->
+      <a
+        href="#home"
+        class="go-up z-3 translate-middle position-fixed rounded-circle"
+        ><i class="fa-sharp fa-solid fa-arrow-up fa-2x"></i
+      ></a>
+      <!-- END OF REGION UPAROW -->
+    </header>
+    <!-- END OF REGION SECTION HEADER -->
+
+    <!-- START OF REGION SECTION ABOUT -->
+    <section class="about py-5 overflow-x-hidden" id="about">
+      <div class="main-section-head position-relative text-center pt-5 mt-5">
+        <h2>About <span>Me</span></h2>
+        <h3>About <span>Me </span></h3>
+      </div>
+      <body class="container py-5">
+        <div class="row pt-5">
+          <div class="col-lg-6">
+            <div
+              class="porsonal-info-right"
+              data-aos="fade-up-right"
+              data-aos-duration="1300"
+            >
+              <h3>Personal Information</h3>
+              <div class="list-info d-flex gap-5">
+                <ul class="d-flex flex-column gap-4 p-0">
+                  <li>
+                    <strong>Name:</strong> <br />
+                    <span>Mahmoud Ahmed</span>
+                  </li>
+                  <li>
+                    <strong>Address:</strong> <br />
+                    <span>Ismailia, Egypt</span>
+                  </li>
+                  <li>
+                    <strong>Email:</strong> <br />
+                    <a href="mailto:mahmoudabomalab2006@gmail.com">Mahmoud Ahmed</a>
+                  </li>
+                  <li>
+                    <strong>GitHub:</strong> <br />
+                    <a href="https://github.com/mahmoud906ahmed">Eissa44</a>
+                  </li>
+                </ul>
+
+                <ul class="d-flex flex-column gap-4">
+                  <li>
+                    <strong>Age:</strong> <br />
+                    <span>25 years old</span>
+                  </li>
+                  <li>
+                    <strong>Languages:</strong> <br />
+                    <span>Arabic, English</span>
+                  </li>
+                  <li>
+                    <strong>Phone:</strong> <br />
+                    <a href="#">+201117006725</a>
+                  </li>
+                  <li>
+                    <strong>Linkedin:</strong> <br />
+                    <a href="https://github.com/mahmoud906ahmed">Mahmoud Ahmed</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="personal-info-left d-flex flex-column gap-4"
+              data-aos="fade-up-left"
+              data-aos-duration="1700"
+            >
+              <div class="div-one border border-2 p-3">
+                <h5 class="fw-bold">6</h5>
+                <span class="fs-4 pt-3">Months of Experience</span>
+              </div>
+
+              <div class="div-two border border-2 p-3">
+                <h5 class="fw-bold">15+</h5>
+                <span class="fs-4 pt-3">Completed projects</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<section class="services">
+          <h3 class="second-title px-3 py-1 position-relative">
+            What I'm Doing
+          </h3>
+
+          <div class="row gy-3">
+            <div class="col-lg-6">
+              <div
+                class="card h-100 card-info"
+                data-aos-duration="1000"
+                data-aos="fade-right"
+              >
+                <h3 class="card-header text-center">Web Development</h3>
+                <div class="card-body d-flex align-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.25em"
+                    height="1em"
+                    viewBox="0 0 640 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6m80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3"
+                    />
+                  </svg>
+                  <p class="mb-0 ms-4">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="card h-100 card-info"
+                data-aos-duration="1000"
+                data-aos="fade-down"
+              >
+                <h3 class="card-header text-center">Web Design</h3>
+                <div class="card-body d-flex align-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 22A10 10 0 0 1 2 12A10 10 0 0 1 12 2c5.5 0 10 4 10 9a6 6 0 0 1-6 6h-1.8c-.3 0-.5.2-.5.5c0 .1.1.2.1.3c.4.5.6 1.1.6 1.7c.1 1.4-1 2.5-2.4 2.5m0-18a8 8 0 0 0-8 8a8 8 0 0 0 8 8c.3 0 .5-.2.5-.5c0-.2-.1-.3-.1-.4c-.4-.5-.6-1-.6-1.6c0-1.4 1.1-2.5 2.5-2.5H16a4 4 0 0 0 4-4c0-3.9-3.6-7-8-7m-5.5 6c.8 0 1.5.7 1.5 1.5S7.3 13 6.5 13S5 12.3 5 11.5S5.7 10 6.5 10m3-4c.8 0 1.5.7 1.5 1.5S10.3 9 9.5 9S8 8.3 8 7.5S8.7 6 9.5 6m5 0c.8 0 1.5.7 1.5 1.5S15.3 9 14.5 9S13 8.3 13 7.5S13.7 6 14.5 6m3 4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5"
+                    />
+                  </svg>
+                  <p class="mb-0 ms-4">
+                    High-quality and modern design made at <br />
+                    a professional level.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="card h-100 card-info"
+                data-aos-duration="1000"
+                data-aos="fade-left"
+              >
+                <h3 class="card-header text-center">Responsive</h3>
+                <div class="card-body d-flex align-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M4 6v10h5v-4a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v4h2V6zM0 20v-2h4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h4v2h-6a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2zm11.5 0a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5a.5.5 0 0 0 .5-.5a.5.5 0 0 0-.5-.5m4 0a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5a.5.5 0 0 0 .5-.5a.5.5 0 0 0-.5-.5M13 20v1h1v-1zm-2-8v7h5v-7z"
+                    />
+                  </svg>
+                  <p class="mb-0 ms-4">Responsive websites on all screens.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="card h-100 card-info"
+                data-aos-duration="1000"
+                data-aos="fade-left"
+              >
+                <h3 class="card-header text-center">Angular Faremwork</h3>
+                <div class="card-body d-flex align-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M10.483 12.482h3.034L12 8.831z"
+                    />
+                    <path
+                      fill="currentColor"
+                      d="M12 3.074L3.689 6.038l1.268 10.987l7.043 3.9l7.043-3.9l1.268-10.987zm5.187 13.621H15.25l-1.045-2.606h-4.41L8.75 16.695H6.813L12 5.047z"
+                    />
+                  </svg>
+                  <p class="mb-0 ms-4">
+                    Create the website professionally using Angular <br />
+                    Framework.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </!--<section>-->
+
+        <!-- START OF REGION SKILLS  -->
+        <!--<section class="skills">
+          <h3 class="second-title px-3 py-1 position-relative">
+            Techniacl skills
+          </h3>
+          <div class="container" data-aos-duration="1000" data-aos="fade-down">
+            <ul class="skills-ul d-none">
+              <li class="position-relative">
+                <div class="">
+                  <div class="skill position-relative">
+                    <div class="outer rounded-circle">
+                      <div
+                        class="inner rounded-circle d-flex justify-content-center flex-column align-items-center"
+                      >
+                        <span class="fs-3">HTML</span>
+                        <div id="number" class="fs-3"></div>
+                      </div>
+                    </div>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      version="1.1"
+                      width="160px"
+                      height="160px"
+                      class="position-absolute top-0"
+                    >
+                      <defs>
+                        <linearGradient id="GradientColor">
+                          <stop offset="0%" class="stop1" />
+                          <stop offset="100%" class="stop2" />
+                        </linearGradient>
+                      </defs>
+                      <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                  </div>-->
+                  <!-- <div class="skill-info"></div> -->
+                <!--</div>
+              </!--<>
+            </ul>
+
+            <div class="row">
+              <div class="timeline rounded-3 position-relative border border-2">
+                <ul class="info-ul">
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-right"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="img/skills/html-5.png"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-left"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="./img/1.jpg"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-right"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="./img/1.jpg"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-left"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="./img/1.jpg"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-right"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="./img/1.jpg"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-left"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="./img/1.jpg"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-right"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="./img/1.jpg"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="position-relative border border-1 rounded-1"
+                    data-aos-duration="1000"
+                    data-aos="fade-left"
+                  >
+                    <div class="position-relative bottom-0 p-4 rounded-4 my-3">
+                      <img
+                        src="./img/1.jpg"
+                        alt=""
+                        class="rounded-circle p-2 w-100"
+                      />
+                      <h3>Mahmoud Ahmed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, suscipit! Exercitationem, libero? Nostrum
+                        aspernatur, reprehenderit velit ipsa quidem nobis
+                        pariatur.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </!--<section>-->
+        <!-- END OF REGION SKILLS  -->
+
+        <!-- START OF REGION EDUCATION -->
+        <!--<section class="education">
+          <h3 class="second-title px-3 py-1 position-relative">
+            Education & Experience
+          </h3>
+
+          <div class="container">
+            <div class="row gy-3">
+              <div class="col-lg-6">
+                <div class="resume-item position-relative">
+                  <div
+                    class="resume-icon rounded-circle position-absolute start-0 top-0 text-center"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span class="resume-date px-3 my-2 rounded-3"
+                    >May 2023 - Nov 2023</span
+                  >
+                  <h3 class="resume-subtitle">
+                    <strong>Internship</strong> Route Academy
+                  </h3>
+                  <p class="resume-description">
+                    Full Front-end Development Diploma with ReactJS Framework.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="resume-item position-relative">
+                  <div
+                    class="resume-icon rounded-circle position-absolute start-0 top-0 text-center"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span class="resume-date px-3 my-2 rounded-3"
+                    >May 2023 - Nov 2023</span
+                  >
+                  <h3 class="resume-subtitle">
+                    <strong>Internship</strong> Route Academy
+                  </h3>
+                  <p class="resume-description">
+                    Full Front-end Development Diploma with ReactJS Framework.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </!--<section>-->
+        <!-- END OF REGION EDUCATION 
+      </section>
+    </section>
+     END OF REGION SECTION ABOUT -->
+
+    <!-- START OF REGION SECTION PORTFOLIO -->
+    <section class="portfolio py-5" id="portfolio">
+      <!--<div class="main-section-head position-relative text-center mt-4">
+        <h2>My <span>Portfolio</span></h2>
+        <h3>My <span>Portfolio </span></h3>
+      </!--<div>
+      <p class="portfolio-p text-center fs-5 w-50 mx-auto pt-3">
+        In this section, I'll show you some of my projects. and some of the
+        features I know about them.
+      </p>
+
+      <ul
+        class="nav nav-pills mt-5 w-50 mx-auto rounded-3 d-flex justify-content-evenly"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#all"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            All
+          </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#hcj"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            HTML, CSS, JavaScript
+          </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#angular"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Angular
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="all"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          <div class="container pt-5">
+            <div class="row gy-4 position-relative">
+              <div class="col-lg-4">
+                <div
+                  class="img-item position-relative overflow-hidden rounded-3"
+                >
+                  <img src="img/1.jpg" alt="image pne" class="w-100" />
+                  <div
+                    role="button"
+                    class="shadow position-absolute d-flex justify-content-center align-items-center flex-column text-white"
+                  >
+                    <h4 class="fs-4">Project Title</h4>
+                  </div>
+                </div>
+
+                 a -->
+                <!--<div
+                  class="project-info rounded-3 p-5 position-absolute w-75 translate-middle top-50 start-50 d-none"
+                >
+                  <i
+                    id="close-info"
+                    class="btn fa-solid fa-xmark fa-2x position-absolute border p-3 rounded-4"
+                  ></i>
+
+                  <h1>I'm a modal window</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam,
+                  </p>
+                </!--<div>
+              </div>
+
+              <div class="col-lg-4">
+                <div
+                  class="img-item position-relative overflow-hidden rounded-3"
+                >
+                  <img src="img/2.jpg" alt="image pne" class="w-100" />
+                  <div
+                    role="button"
+                    class="shadow position-absolute d-flex justify-content-center align-items-center flex-column text-white"
+                  >
+                    <h4 class="text-muted fs-5 py-2">Category</h4>
+                    <h5>Project Title</h5>
+                  </div>
+                </div>
+                 a -->
+                <!--<div
+                  class="project-info rounded-3 p-5 position-absolute w-75 translate-middle top-50 start-50 d-none"
+                >
+                  <i
+                    id="close-info"
+                    class="btn fa-solid fa-xmark fa-2x position-absolute border p-3 rounded-4"
+                  ></i>
+
+                  <h1>I'm a modal window</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam,
+                  </p>
+                </!--<div>
+              </div>
+
+              <div class="col-lg-4">
+                <div
+                  class="img-item position-relative overflow-hidden rounded-3"
+                >
+                  <img src="img/3.jpg" alt="image pne" class="w-100" />
+                  <div
+                    role="button"
+                    class="shadow position-absolute d-flex justify-content-center align-items-center flex-column text-white"
+                  >
+                    <h4 class="text-muted fs-5 py-2">Category</h4>
+                    <h5>Project Title</h5>
+                  </div>
+                </div>
+                a -->
+                <!--<div
+                  class="project-info rounded-3 p-5 position-absolute w-75 translate-middle top-50 start-50 d-none"
+                >
+                  <i
+                    id="close-info"
+                    class="btn fa-solid fa-xmark fa-2x position-absolute border p-3 rounded-4"
+                  ></i>
+
+                  <h1>I'm a modal window</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam,
+                  </p>
+                </!--<div>
+              </div>
+
+              <div class="col-lg-4">
+                <div
+                  class="img-item position-relative overflow-hidden rounded-3"
+                >
+                  <img src="img/4.jpg" alt="image pne" class="w-100" />
+                  <div
+                    role="button"
+                    class="shadow position-absolute d-flex justify-content-center align-items-center flex-column text-white"
+                  >
+                    <h4 class="text-muted fs-5 py-2">Category</h4>
+                    <h5>Project Title</h5>
+                  </div>
+                </div>
+                a -->
+                <!--<div
+                  class="project-info rounded-3 p-5 position-absolute w-75 translate-middle top-50 start-50 d-none"
+                >
+                  <i
+                    id="close-info"
+                    class="btn fa-solid fa-xmark fa-2x position-absolute border p-3 rounded-4"
+                  ></i>
+
+                  <h1>I'm a modal window</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam,
+                  </p>
+                </!--<div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="hcj"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+          tabindex="0"
+        >
+          <div class="container pt-5">
+            <div class="row"></div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="angular"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+          tabindex="0"
+        >
+          <div class="container pt-5">
+            <div class="row"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <-- END OS REGION SECTION PORTFOLIO -->
+
+    <!-- START OF REGION SECTION CONTACT -->
+    <!--<section class="contact py-5" id="contact">
+      <div class="main-section-head position-relative text-center mt-4">
+        Contact Me Get-in Touch-->
+        <!--<h2>Get-in <span>Touch</span></!--<h2>
+        <h3>Get-in <span>Touch </span></h3>
+      div>
+      <div class="container py-5">
+        <div class="row contact-content gy-4 gx-3">
+          <div class="col-lg-5">
+            <h4 class="form-title position-relative mb-5 fs-3">
+              Don't be shy!
+            </h4>
+            <p class="contact-p fs-5">
+              Feel free to get in touch with me. I'm always open to discussing
+              new projects, creative ideas, or opportunities to be a part of
+              your vision. And if you need help from me, don't be shy about
+              contacting me at any time. Especially beginner programmers
+            </p>
+            <div class="social-links mt-5">
+              <a
+                href="https://www.linkedin.com/in/eissa-elemam-376734269/"
+                class="btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-2x fa-linkedin"></i>
+              </a>
+
+              <a href="https://github.com/Eissa44" class="btn" target="_blank">
+                <i class="fa-brands fa-2x fa-github-square"></i>
+              </a>
+
+              <a
+                href="https://web.facebook.com/profile.php?id=100004158580162"
+                class="btn"
+                target="_blank"
+                ><i class="fa-brands fa-2x fa-facebook"></i
+              ></a>
+
+              <a
+                href="mailto:eissaelemam67@gmail.com
+              "
+                class="btn"
+                target="_blank"
+              >
+                <i class="fa-solid fa-2x fa-envelope-open"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h4 class="form-title position-relative mb-5 fs-3">Contact Me</h4>
+            <section class="contact-form row g-3">
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-control rounded-pill"
+                  placeholder="Full Name"
+                  required=""
+                  data-form-input=""
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="col-lg-6">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control rounded-pill"
+                  placeholder="Email Address"
+                  required=""
+                  data-form-input=""
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="col-lg-12">
+                <textarea
+                  name="massage"
+                  id=""
+                  cols="30"
+                  rows="5"
+                  class="form-control rounded-4"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button
+                class="form-btn btn ms-auto w-25 ms-auto rounded-pill p-2 w-100"
+                type="submit"
+                data-form-btn=""
+                aria-label="Send Message"
+              >
+                <-- <ion-icon
+                  name="paper-plane"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="paper plane"
+                ></ion-icon> -->
+                <!--<span>Send Message</!--<span>
+              </span>
+            </section>
+          </div>
+        </div>
+      </div>
+    </h2>-->
+    <!-- END OF REGION SECTION CONTACT -->
+
+    <!-- START OF REGION SECTION FOOTER -->
+
+    <footer>
+      <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill-opacity="1"
+          d="M0,192L26.7,192C53.3,192,107,192,160,165.3C213.3,139,267,85,320,90.7C373.3,96,427,160,480,176C533.3,192,587,160,640,170.7C693.3,181,747,235,800,250.7C853.3,267,907,245,960,213.3C1013.3,181,1067,139,1120,138.7C1173.3,139,1227,181,1280,186.7C1333.3,192,1387,160,1413,144L1440,128L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </!--<svg>
+
+      <section class="foot" id="foot">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-md-6">
+              <div class="right-content">
+                <-- <img src="" alt=""> -->
+                <!--<h4>
+                  Mahmoud Ahmed <br />
+                  <span>Personal</span>
+                </!--<h4>
+              </h4>
+            </div>
+
+            <div class="col-md-6">
+              <div class="left-content">
+                <p>
+                  &copy; Copyright 2024. Made by
+                  <a href="#home"><strong>Mahmoud Ahmed</strong></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </svg>
+    <-- END OF REGION SECTION FOOTER -->
+
+    <div
+      class="overlay position-absolute top-0 start-0 w-100 h-100 d-none"
+    ></div>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-en="My Projects" data-ar="مشاريعي">My Projects</h2>
+            <div class="projects-container">
+                <div class="project-card" data-aos="fade-up">
+                    <img src="images/1.jpeg" alt="AI Dashboard" loading="lazy">
+                    <div class="project-overlay">
+                        <h3 data-en="AI Analytics Dashboard" data-ar="لوحة تحليلات الذكاء الاصطناعي">AI Analytics Dashboard</h3>
+                        <p data-en="Advanced analytics platform with AI-powered insights" data-ar="منصة تحليلات متقدمة مع رؤى مدعومة بالذكاء الاصطناعي">Advanced analytics platform with AI-powered insights</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">TensorFlow.js</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">D3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span data-en="Live Demo" data-ar="عرض حي">Live Demo</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Source Code" data-ar="الكود المصدري">Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/2.jpeg" alt="Social Network" loading="lazy">
+                    <div class="project-overlay">
+                        <h3 data-en="Social Network Platform" data-ar="منصة شبكات اجتماعية">Social Network Platform</h3>
+                        <p data-en="Full-featured social network with real-time chat" data-ar="شبكة اجتماعية متكاملة مع دردشة فورية">Full-featured social network with real-time chat</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Socket.io</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span data-en="Live Demo" data-ar="عرض حي">Live Demo</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Source Code" data-ar="الكود المصدري">Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/3.jpeg" alt="Mobile App" loading="lazy">
+                    <div class="project-overlay">
+                        <h3 data-en="Fitness Tracking App" data-ar="تطبيق تتبع اللياقة">Fitness Tracking App</h3>
+                        <p data-en="Mobile app for fitness tracking with AI coach" data-ar="تطبيق جوال لتتبع اللياقة مع مدرب ذكاء اصطناعي">Mobile app for fitness tracking with AI coach</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React Native</span>
+                            <span class="project-tag">TypeScript</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">TensorFlow Lite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span data-en="Live Demo" data-ar="عرض حي">Live Demo</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Source Code" data-ar="الكود المصدري">Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/4.jpeg" alt="Blockchain" loading="lazy">
+                    <div class="project-overlay">
+                        <h3 data-en="NFT Marketplace" data-ar="سوق NFT">NFT Marketplace</h3>
+                        <p data-en="Decentralized NFT marketplace with smart contracts" data-ar="سوق لامركزي للرموز غير القابلة للاستبدال مع عقود ذكية">Decentralized NFT marketplace with smart contracts</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Solidity</span>
+                            <span class="project-tag">Web3.js</span>
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">IPFS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span data-en="Live Demo" data-ar="عرض حي">Live Demo</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Source Code" data-ar="الكود المصدري">Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/5.jpeg" alt="Cloud Platform" loading="lazy">
+                    <div class="project-overlay">
+                        <h3 data-en="Cloud DevOps Platform" data-ar="منصة DevOps السحابية">Cloud DevOps Platform</h3>
+                        <p data-en="Automated cloud deployment and monitoring system" data-ar="نظام نشر ومراقبة سحابي آلي">Automated cloud deployment and monitoring system</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Docker</span>
+                            <span class="project-tag">Kubernetes</span>
+                            <span class="project-tag">Go</span>
+                            <span class="project-tag">AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span data-en="Live Demo" data-ar="عرض حي">Live Demo</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Source Code" data-ar="الكود المصدري">Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <img src="images/6.jpeg" alt="AR App" loading="lazy">
+                    <div class="project-overlay">
+                        <h3 data-en="AR Shopping Experience" data-ar="تجربة تسوق بالواقع المعزز">AR Shopping Experience</h3>
+                        <p data-en="Augmented reality shopping app with 3D product visualization" data-ar="تطبيق تسوق بالواقع المعزز مع عرض المنتجات ثلاثية الأبعاد">Augmented reality shopping app with 3D product visualization</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Unity</span>
+                            <span class="project-tag">ARKit</span>
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">Three.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span data-en="Live Demo" data-ar="عرض حي">Live Demo</span>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Source Code" data-ar="الكود المصدري">Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-en="My Skills" data-ar="مهاراتي">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item" data-aos="fade-up">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5" style="color: #E34F26;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>HTML5/CSS3</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-js" style="color: #F7DF1E;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>JavaScript/TypeScript</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-react" style="color: #61DAFB;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>React/React Native</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js" style="color: #339933;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Node.js/Express</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-python" style="color: #3776AB;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Python/Django</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-database" style="color: #47A248;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>MongoDB/PostgreSQL</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-docker" style="color: #2496ED;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Docker/Kubernetes</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="700">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-aws" style="color: #FF9900;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>AWS/Cloud Services</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="800">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-android" style="color: #3DDC84;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Mobile Development</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="900">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain" style="color: #FF4B4B;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>AI/Machine Learning</h3>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 100%"></div>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2 class="section-title" data-en="Contact Me" data-ar="تواصل معي">Contact Me</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                <p>mahmoudabomalab2006@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <h3 data-en="Phone" data-ar="رقم الهاتف">Phone</h3>
+                <p>+201022489917</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3 data-en="Location" data-ar="العنوان">Location</h3>
+                <p data-en="Ismailia" data-ar="الاسماعيليه">Ismailia</p>
+            </div>
+        </div>
+        <form onsubmit="return handleSubmit(event)" class="contact-form">
+            <div class="form-group">
+                <input type="text" data-en-placeholder="Name" data-ar-placeholder="الاسم" placeholder="Name" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="form-group">
+                <input type="email" data-en-placeholder="Email" data-ar-placeholder="البريد الإلكتروني" placeholder="Email" required>
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-group">
+                <textarea data-en-placeholder="Your Message" data-ar-placeholder="رسالتك" placeholder="Your Message" required></textarea>
+                <i class="fas fa-comment"></i>
+            </div>
+            <button type="submit">
+                <span data-en="Send Message" data-ar="إرسال">Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+    </section>
+
+    <!-- jq JS PATH -->
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <!-- JS Bootstrap path -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- AOS PATH -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--  -->
+    <script src="JS/particles.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- MAIN JS PATH -->
+    <script src="JS/main.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+</html>
